@@ -9,5 +9,11 @@ def get_data():
 			"icon": "octicon octicon-file-directory",
 			"type": "module",
 			"label": _("KPI")
+		},
+		"My Reports": {
+			"color": "grey",
+			"icon": "octicon octicon-file-directory",
+			"type": "module",
+			"label": _("My Reports")
 		}
 	}

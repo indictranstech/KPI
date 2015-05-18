@@ -36,6 +36,7 @@ def update_xml_content(zoho_config_path,zoho_database,doc):
 	xml_content = etree.parse(file_path)
 	xml_root = xml_content.getroot()
 	add_element = False
+	
 	for elem in xml_root.findall('Query'):
 		if elem.get('tablename') == doc.name:
 			query = build_query(doc)
