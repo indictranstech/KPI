@@ -57,10 +57,10 @@ def update_xml_content(zoho_config_path,zoho_database,doc):
 	xml_content.write(file_path)		 			
 
 def build_query(doc):
-	field_list=[]
+	field_list = []
 	for field in doc.get('fields'):
-		if field.fieldtype not in ["Attach","Attach Image","Button","Column Break","Fold","Heading","HTML","Password","Section Break","Text Editor","Table"]:
+		if field.fieldtype not in ["Attach","Attach Image","Button","Column Break","Code","Fold","Heading","HTML","Password","Section Break","Text Editor","Table"]:
 			field_list.append(field.fieldname)
 	cols = (',').join(field_list)
-	query="select {0} from `tab{1}`".format(cols,doc.name)
+	query = "select {0} from `tab{1}`".format(cols,doc.name)
 	return query
