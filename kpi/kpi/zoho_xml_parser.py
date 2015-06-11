@@ -14,7 +14,7 @@ def configure_kpi(doc,method):
 		remaining check con for single and child table
 		what if there is no table in zoho
 	"""
-	if doc.module == 'Test Zoho' and doc.istable == 0 and doc.issingle == 0: 
+	if doc.module == 'KPI' and doc.istable == 0 and doc.issingle == 0: 
 		zoho_config_path = frappe.db.get_value("ZOHO Config","ZOHO Config","zoho_path")
 		zoho_database = frappe.db.get_value("ZOHO Config","ZOHO Config","zoho_db_name")
 		if zoho_config_path and zoho_database:
