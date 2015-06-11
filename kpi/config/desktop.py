@@ -5,15 +5,15 @@ from frappe import _
 def get_data():
 	return {
 		"KPI": {
-			"color": "grey",
-			"icon": "octicon octicon-file-directory",
+			"color": "#589494",
+			"icon": "octicon octicon-file-binary",
 			"type": "module",
-			"label": _("KPI")
+			"label": _("Easy Feed")
 		},
 		"My Reports": {
-			"color": "grey",
-			"icon": "octicon octicon-file-directory",
+			"color": "#e67e22",
+			"icon": "octicon octicon-pulse",
 			"type": "module",
-			"label": _("My Reports")
+			"label": _("Easy Reports")
 		}
 	}
