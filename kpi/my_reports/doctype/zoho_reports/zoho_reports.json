@@ -29,6 +29,14 @@
    "set_only_once": 0
   }, 
   {
+   "fieldname": "report_user", 
+   "fieldtype": "Link", 
+   "label": "Report User", 
+   "options": "User", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
    "allow_on_submit": 0, 
    "fieldname": "report_title", 
    "fieldtype": "Data", 
@@ -149,7 +157,7 @@
  "is_submittable": 0, 
  "issingle": 0, 
  "istable": 0, 
- "modified": "2015-05-18 17:36:01.772806", 
+ "modified": "2015-05-29 18:47:45.757642", 
  "modified_by": "Administrator", 
  "module": "My Reports", 
  "name": "ZOHO Reports", 
@@ -196,7 +204,7 @@
   }, 
   {
    "amend": 0, 
-   "apply_user_permissions": 0, 
+   "apply_user_permissions": 1, 
    "cancel": 0, 
    "create": 0, 
    "delete": 0, 
@@ -208,7 +216,7 @@
    "read": 1, 
    "report": 1, 
    "role": "Report Manager", 
-   "set_user_permissions": 0, 
+   "set_user_permissions": 1, 
    "share": 1, 
    "submit": 0, 
    "write": 1
