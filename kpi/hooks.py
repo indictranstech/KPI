@@ -12,7 +12,7 @@ app_version = "0.0.1"
 
 # Includes in <head>
 # ------------------
-
+app_include_js = "assets/js/kpi.min.js"
 # include js, css files in header of desk.html
 # app_include_css = "/assets/kpi/css/kpi.css"
 # app_include_js = "/assets/kpi/js/kpi.js"
@@ -110,4 +110,7 @@ doc_events = {
 	"DocType":{
 		"on_update": "kpi.kpi.zoho_xml_parser.configure_kpi",
 	}
+}
+website_context = {
+	"splash_image": "/assets/kpi/Increasy_logo.jpg"
 }
