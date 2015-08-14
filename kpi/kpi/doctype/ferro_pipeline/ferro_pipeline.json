@@ -1,0 +1,350 @@
+{
+ "allow_copy": 0, 
+ "allow_import": 1, 
+ "allow_rename": 0, 
+ "autoname": "naming_series:", 
+ "creation": "2015-07-18 06:52:53.670619", 
+ "custom": 0, 
+ "docstatus": 0, 
+ "doctype": "DocType", 
+ "document_type": "Transaction", 
+ "fields": [
+  {
+   "fieldname": "customer_details", 
+   "fieldtype": "Section Break", 
+   "label": "Customer Details", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "customer_name", 
+   "fieldtype": "Data", 
+   "label": "Customer Name", 
+   "permlevel": 0, 
+   "precision": "", 
+   "reqd": 1
+  }, 
+  {
+   "fieldname": "customer_location_city", 
+   "fieldtype": "Data", 
+   "label": "Customer Location City", 
+   "permlevel": 0, 
+   "precision": "", 
+   "reqd": 1
+  }, 
+  {
+   "fieldname": "customer_location_state", 
+   "fieldtype": "Data", 
+   "label": "Customer Location State", 
+   "permlevel": 0, 
+   "precision": "", 
+   "reqd": 1
+  }, 
+  {
+   "fieldname": "column_break_5", 
+   "fieldtype": "Column Break", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "contact_person", 
+   "fieldtype": "Data", 
+   "label": "Customer Contact Person", 
+   "permlevel": 0, 
+   "precision": "", 
+   "reqd": 1
+  }, 
+  {
+   "fieldname": "customer_contact_mobile", 
+   "fieldtype": "Data", 
+   "label": "Customer Contact Mobile", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "customer_contact_landline", 
+   "fieldtype": "Data", 
+   "label": "Customer Contact Landline", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "customer_email", 
+   "fieldtype": "Data", 
+   "label": "Customer Email", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "opportunity_details", 
+   "fieldtype": "Section Break", 
+   "label": "Opportunity Details", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "allow_on_submit": 0, 
+   "fieldname": "naming_series", 
+   "fieldtype": "Select", 
+   "hidden": 0, 
+   "ignore_user_permissions": 0, 
+   "in_filter": 0, 
+   "in_list_view": 0, 
+   "label": "Serial Number", 
+   "no_copy": 0, 
+   "options": "FF", 
+   "permlevel": 0, 
+   "precision": "", 
+   "print_hide": 0, 
+   "read_only": 0, 
+   "report_hide": 0, 
+   "reqd": 0, 
+   "search_index": 0, 
+   "set_only_once": 0, 
+   "unique": 0
+  }, 
+  {
+   "allow_on_submit": 0, 
+   "fieldname": "source", 
+   "fieldtype": "Select", 
+   "hidden": 0, 
+   "ignore_user_permissions": 0, 
+   "in_filter": 0, 
+   "in_list_view": 0, 
+   "label": "Source", 
+   "no_copy": 0, 
+   "options": "Existing Customer\nReferral\nExhibition Visitor\nResponse to Advertisement", 
+   "permlevel": 0, 
+   "precision": "", 
+   "print_hide": 0, 
+   "read_only": 0, 
+   "report_hide": 0, 
+   "reqd": 1, 
+   "search_index": 0, 
+   "set_only_once": 0, 
+   "unique": 0
+  }, 
+  {
+   "allow_on_submit": 0, 
+   "description": "Lead Generated On", 
+   "fieldname": "lead_date", 
+   "fieldtype": "Date", 
+   "hidden": 0, 
+   "ignore_user_permissions": 0, 
+   "in_filter": 0, 
+   "in_list_view": 0, 
+   "label": "Lead Date", 
+   "no_copy": 0, 
+   "permlevel": 0, 
+   "precision": "", 
+   "print_hide": 0, 
+   "read_only": 0, 
+   "report_hide": 0, 
+   "reqd": 1, 
+   "search_index": 0, 
+   "set_only_once": 0, 
+   "unique": 0
+  }, 
+  {
+   "description": "Date when Customer is expected to place firm Order", 
+   "fieldname": "order_expected_date", 
+   "fieldtype": "Date", 
+   "label": "Order Expected Date", 
+   "permlevel": 0, 
+   "precision": "", 
+   "reqd": 1
+  }, 
+  {
+   "fieldname": "pipeline_status", 
+   "fieldtype": "Select", 
+   "label": "Pipeline Status", 
+   "options": "P1 Lead\nP2 Enquiry\nP3 Qtn\nP4 Negotiation\nP5 Order Recd\nL Order Lost", 
+   "permlevel": 0, 
+   "precision": "", 
+   "reqd": 1
+  }, 
+  {
+   "description": "To be entered if order is lost ", 
+   "fieldname": "order_lost_reason", 
+   "fieldtype": "Data", 
+   "label": "Order Lost Reason", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "column_break_16", 
+   "fieldtype": "Column Break", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "description": "Date when Customer confirmed need", 
+   "fieldname": "enquiry_date", 
+   "fieldtype": "Date", 
+   "label": "Enquiry Date", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "quotation_number", 
+   "fieldtype": "Data", 
+   "label": "Quotation Number", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "description": "Date on which Quotation was sent", 
+   "fieldname": "quotation_date", 
+   "fieldtype": "Date", 
+   "label": "Quotation Date", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "description": "Value of the Business Opportunity", 
+   "fieldname": "deal_value", 
+   "fieldtype": "Data", 
+   "label": "Deal Value", 
+   "permlevel": 0, 
+   "precision": "", 
+   "reqd": 1
+  }, 
+  {
+   "fieldname": "column_break_20", 
+   "fieldtype": "Column Break", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "product_details", 
+   "fieldtype": "Heading", 
+   "label": "Product Details", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "product_family", 
+   "fieldtype": "Select", 
+   "label": "Product Family", 
+   "options": "Pallet Truck\nReachup\nBike Lift\nSlim Lift\nScissor Lift\nElevating Dock\nDock Leveler\nPlywood M/c\nSpares\nAMC\nService", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "product_model", 
+   "fieldtype": "Data", 
+   "label": "Product Model", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "quantity_required", 
+   "fieldtype": "Data", 
+   "label": "Quantity Required", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "ferro_internal_mapping", 
+   "fieldtype": "Section Break", 
+   "label": "Ferro Internal Mapping", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "ferro_hub", 
+   "fieldtype": "Select", 
+   "label": "Ferro Hub", 
+   "options": "LPG Hub\nAP Hub\nTN Hub\nBike Hub\nKarnataka Hub\nRest Of India\nPlywood Hub\nExport\nKerala Hub\nMaharashtra Hub\nGoa Hub", 
+   "permlevel": 0, 
+   "precision": "", 
+   "reqd": 1
+  }, 
+  {
+   "fieldname": "salesperson", 
+   "fieldtype": "Select", 
+   "label": "Salesperson", 
+   "options": "Ramesh\nPrasad\nChetan \nFaseel ", 
+   "permlevel": 0, 
+   "precision": "", 
+   "reqd": 1
+  }, 
+  {
+   "fieldname": "channel_partner", 
+   "fieldtype": "Data", 
+   "label": "Channel Partner", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "column_break_22", 
+   "fieldtype": "Column Break", 
+   "label": "", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "work_order_mapping", 
+   "fieldtype": "Heading", 
+   "label": "Work Order Mapping", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "description": "WO Number if firm Order received from Customer", 
+   "fieldname": "work_order_number", 
+   "fieldtype": "Data", 
+   "label": "Work Order Number", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "description": "Discount offered on standard price", 
+   "fieldname": "discount_offered", 
+   "fieldtype": "Percent", 
+   "label": "Discount Offered", 
+   "permlevel": 0, 
+   "precision": "1"
+  }
+ ], 
+ "hide_heading": 0, 
+ "hide_toolbar": 0, 
+ "in_create": 0, 
+ "in_dialog": 0, 
+ "is_submittable": 0, 
+ "issingle": 0, 
+ "istable": 0, 
+ "modified": "2015-07-18 15:42:14.409916", 
+ "modified_by": "Administrator", 
+ "module": "KPI", 
+ "name": "Ferro Pipeline", 
+ "name_case": "", 
+ "owner": "Administrator", 
+ "permissions": [
+  {
+   "amend": 0, 
+   "apply_user_permissions": 0, 
+   "cancel": 0, 
+   "create": 1, 
+   "delete": 1, 
+   "email": 1, 
+   "export": 1, 
+   "import": 0, 
+   "permlevel": 0, 
+   "print": 1, 
+   "read": 1, 
+   "report": 1, 
+   "role": "Administrator", 
+   "set_user_permissions": 0, 
+   "share": 1, 
+   "submit": 0, 
+   "write": 1
+  }
+ ], 
+ "read_only": 0, 
+ "read_only_onload": 0, 
+ "search_fields": "customer_name,pipeline_status", 
+ "sort_field": "modified", 
+ "sort_order": "DESC", 
+ "title_field": "customer_name"
+}

@@ -1,0 +1,414 @@
+{
+ "allow_copy": 0, 
+ "allow_import": 0, 
+ "allow_rename": 0, 
+ "creation": "2015-07-20 22:04:38.978380", 
+ "custom": 0, 
+ "docstatus": 0, 
+ "doctype": "DocType", 
+ "document_type": "Master", 
+ "fields": [
+  {
+   "allow_on_submit": 0, 
+   "fieldname": "item_name", 
+   "fieldtype": "Data", 
+   "hidden": 0, 
+   "ignore_user_permissions": 0, 
+   "in_filter": 0, 
+   "in_list_view": 0, 
+   "label": "Item Name", 
+   "no_copy": 0, 
+   "permlevel": 0, 
+   "precision": "", 
+   "print_hide": 0, 
+   "read_only": 0, 
+   "report_hide": 0, 
+   "reqd": 0, 
+   "search_index": 0, 
+   "set_only_once": 0, 
+   "unique": 0
+  }, 
+  {
+   "allow_on_submit": 0, 
+   "fieldname": "item_type", 
+   "fieldtype": "Data", 
+   "hidden": 0, 
+   "ignore_user_permissions": 0, 
+   "in_filter": 0, 
+   "in_list_view": 0, 
+   "label": "Item Type", 
+   "no_copy": 0, 
+   "permlevel": 0, 
+   "precision": "", 
+   "print_hide": 0, 
+   "read_only": 0, 
+   "report_hide": 0, 
+   "reqd": 0, 
+   "search_index": 0, 
+   "set_only_once": 0, 
+   "unique": 0
+  }, 
+  {
+   "allow_on_submit": 0, 
+   "fieldname": "item_family", 
+   "fieldtype": "Data", 
+   "hidden": 0, 
+   "ignore_user_permissions": 0, 
+   "in_filter": 0, 
+   "in_list_view": 0, 
+   "label": "Item Family", 
+   "no_copy": 0, 
+   "permlevel": 0, 
+   "precision": "", 
+   "print_hide": 0, 
+   "read_only": 0, 
+   "report_hide": 0, 
+   "reqd": 0, 
+   "search_index": 0, 
+   "set_only_once": 0, 
+   "unique": 0
+  }, 
+  {
+   "allow_on_submit": 0, 
+   "fieldname": "item_code", 
+   "fieldtype": "Data", 
+   "hidden": 0, 
+   "ignore_user_permissions": 0, 
+   "in_filter": 0, 
+   "in_list_view": 0, 
+   "label": "Item Code", 
+   "no_copy": 0, 
+   "permlevel": 0, 
+   "precision": "", 
+   "print_hide": 0, 
+   "read_only": 0, 
+   "report_hide": 0, 
+   "reqd": 0, 
+   "search_index": 0, 
+   "set_only_once": 0, 
+   "unique": 0
+  }, 
+  {
+   "allow_on_submit": 0, 
+   "fieldname": "drawing_number", 
+   "fieldtype": "Data", 
+   "hidden": 0, 
+   "ignore_user_permissions": 0, 
+   "in_filter": 0, 
+   "in_list_view": 0, 
+   "label": "Drawing Number", 
+   "no_copy": 0, 
+   "permlevel": 0, 
+   "precision": "", 
+   "print_hide": 0, 
+   "read_only": 0, 
+   "report_hide": 0, 
+   "reqd": 0, 
+   "search_index": 0, 
+   "set_only_once": 0, 
+   "unique": 0
+  }, 
+  {
+   "allow_on_submit": 0, 
+   "fieldname": "store_location", 
+   "fieldtype": "Data", 
+   "hidden": 0, 
+   "ignore_user_permissions": 0, 
+   "in_filter": 0, 
+   "in_list_view": 0, 
+   "label": "Store Location", 
+   "no_copy": 0, 
+   "permlevel": 0, 
+   "precision": "", 
+   "print_hide": 0, 
+   "read_only": 0, 
+   "report_hide": 0, 
+   "reqd": 0, 
+   "search_index": 0, 
+   "set_only_once": 0, 
+   "unique": 0
+  }, 
+  {
+   "fieldname": "column_break_7", 
+   "fieldtype": "Column Break", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "image", 
+   "fieldtype": "Attach", 
+   "label": "Image", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "allow_on_submit": 0, 
+   "fieldname": "item_picture", 
+   "fieldtype": "Image", 
+   "hidden": 0, 
+   "ignore_user_permissions": 0, 
+   "in_filter": 0, 
+   "in_list_view": 0, 
+   "label": "Item Picture", 
+   "no_copy": 0, 
+   "permlevel": 0, 
+   "precision": "", 
+   "print_hide": 0, 
+   "read_only": 0, 
+   "report_hide": 0, 
+   "reqd": 0, 
+   "search_index": 0, 
+   "set_only_once": 0, 
+   "unique": 0
+  }, 
+  {
+   "fieldname": "usage_information", 
+   "fieldtype": "Section Break", 
+   "label": "Usage Information", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "machine", 
+   "fieldtype": "Data", 
+   "label": "Machine", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "column_break_10", 
+   "fieldtype": "Column Break", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "point_of_use", 
+   "fieldtype": "Data", 
+   "label": "Point of Use", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "supplier_details", 
+   "fieldtype": "Section Break", 
+   "label": "Supplier Details", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "supplier1_name", 
+   "fieldtype": "Data", 
+   "label": "Supplier1 Name", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "supplier1_vendor_code", 
+   "fieldtype": "Data", 
+   "label": "Supplier1 Vendor Code", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "description": "Minimum Order Quantity", 
+   "fieldname": "supplier_1_moq", 
+   "fieldtype": "Data", 
+   "label": "Supplier 1 MOQ", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "description": "Re-Order Level", 
+   "fieldname": "supplier1_rol", 
+   "fieldtype": "Data", 
+   "label": "Supplier1 ROL", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "description": "Quantity per Box", 
+   "fieldname": "supplier1_qpb", 
+   "fieldtype": "Data", 
+   "label": "Supplier1 QPB", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "supplier1_lead_time", 
+   "fieldtype": "Data", 
+   "label": "Supplier1 Lead Time", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "supplier1_contact_person", 
+   "fieldtype": "Data", 
+   "label": "Supplier1 Contact Person", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "supplier1_contact_phone", 
+   "fieldtype": "Data", 
+   "label": "Supplier1 Contact Phone", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "supplier1_email", 
+   "fieldtype": "Data", 
+   "label": "Supplier1 Email", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "column_break_23", 
+   "fieldtype": "Column Break", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "supplier2_name", 
+   "fieldtype": "Data", 
+   "label": "Supplier2 Name", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "supplier2_vendor_code", 
+   "fieldtype": "Data", 
+   "label": "Supplier2 Vendor Code", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "supplier2_moq", 
+   "fieldtype": "Data", 
+   "label": "Supplier2 MOQ", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "supplier2_rol", 
+   "fieldtype": "Data", 
+   "label": "Supplier2 ROL", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "supplier2_qpb", 
+   "fieldtype": "Data", 
+   "label": "Supplier2 QPB", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "supplier2_lead_time", 
+   "fieldtype": "Data", 
+   "label": "Supplier2 Lead Time", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "supplier2_contact_person", 
+   "fieldtype": "Data", 
+   "label": "Supplier2 Contact Person", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "supplier2_contact_phone", 
+   "fieldtype": "Data", 
+   "label": "Supplier2 Contact Phone", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "supplier2_email", 
+   "fieldtype": "Data", 
+   "label": "Supplier2 Email", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "inspection_details", 
+   "fieldtype": "Section Break", 
+   "label": "Inspection Details", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "inspection_parameter1", 
+   "fieldtype": "Data", 
+   "label": "Inspection Parameter1", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "specifications", 
+   "fieldtype": "Data", 
+   "label": "Specifications", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "unit_of_measurement", 
+   "fieldtype": "Data", 
+   "label": "Unit of Measurement", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "tolerance", 
+   "fieldtype": "Data", 
+   "label": "Tolerance", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "comments", 
+   "fieldtype": "Text", 
+   "label": "Comments", 
+   "permlevel": 0, 
+   "precision": ""
+  }
+ ], 
+ "hide_heading": 0, 
+ "hide_toolbar": 0, 
+ "in_create": 0, 
+ "in_dialog": 0, 
+ "is_submittable": 0, 
+ "issingle": 0, 
+ "istable": 0, 
+ "modified": "2015-07-21 07:50:57.094971", 
+ "modified_by": "Administrator", 
+ "module": "KPI", 
+ "name": "Ferro Item", 
+ "name_case": "", 
+ "owner": "Administrator", 
+ "permissions": [
+  {
+   "amend": 0, 
+   "apply_user_permissions": 0, 
+   "cancel": 0, 
+   "create": 1, 
+   "delete": 1, 
+   "email": 1, 
+   "export": 1, 
+   "import": 0, 
+   "permlevel": 0, 
+   "print": 1, 
+   "read": 1, 
+   "report": 1, 
+   "role": "Administrator", 
+   "set_user_permissions": 0, 
+   "share": 1, 
+   "submit": 0, 
+   "write": 1
+  }
+ ], 
+ "read_only": 0, 
+ "read_only_onload": 0, 
+ "sort_field": "modified", 
+ "sort_order": "DESC"
+}
