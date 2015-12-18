@@ -114,3 +114,5 @@ doc_events = {
 website_context = {
 	"splash_image": "/assets/kpi/Increasy_logo.jpg"
 }
+
+fixtures=["Custom Script"]
