@@ -779,11 +779,8 @@
  "is_submittable": 0, 
  "issingle": 0, 
  "istable": 0, 
-<<<<<<< HEAD
- "modified": "2015-12-22 15:38:35.890694", 
-=======
  "modified": "2016-01-09 11:29:48.011291", 
->>>>>>> 82e4f96... Changes Of Final Requirement
+ "modified": "2016-01-09 11:29:48.011291", 
  "modified_by": "Administrator", 
  "module": "KPI", 
  "name": "Ferro Pipeline", 
