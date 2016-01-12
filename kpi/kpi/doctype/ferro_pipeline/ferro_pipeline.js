@@ -20,7 +20,6 @@ cur_frm.cscript.make_ferro_order =function(){
 }
 cur_frm.add_fetch("Customer", "vendor_code", "vendor_code");
 
-
 // def check_lead_date(self):
 // 		mod_db = frappe.db.get_value("Ferro Pipeline", self.lead_date, "")
 

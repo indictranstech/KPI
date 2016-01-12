@@ -115,4 +115,4 @@ website_context = {
 	"splash_image": "/assets/kpi/Increasy_logo.jpg"
 }
 
-fixtures=["Custom Script"]
+fixtures=["Custom Script","Property Setter"]
