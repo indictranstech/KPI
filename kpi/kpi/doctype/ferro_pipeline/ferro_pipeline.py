@@ -33,10 +33,10 @@ def get_address(customer):
 def get_detail_cont(first_name):
 	return frappe.db.sql("""select mobile_no from `tabContact` where first_name=%s""",(first_name))
 
-@frappe.whitelist()
-def get_empname(salesperson):
-	# print frappe.db.sql("""select employee_name from `tabEmployee` where name=%s""",(salesperson))
-	return frappe.db.sql("""select employee_name from `tabEmployee` where name=%s""",(salesperson))[0][0]
+# @frappe.whitelist()
+# def get_empname(salesperson):
+# 	print salesperson
+# 	return frappe.db.sql("""select employee_name from `tabEmployee` where employee_name=%s""",(salesperson))[0][0]
 
 
 
