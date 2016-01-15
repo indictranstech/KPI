@@ -1019,19 +1019,6 @@
   "docstatus": 0, 
   "doctype": "Property Setter", 
   "doctype_or_field": "DocField", 
-  "field_name": "vendor_code", 
-  "modified": "2016-01-11 18:02:18.487879", 
-  "name": "Ferro Pipeline-vendor_code-previous_field", 
-  "property": "previous_field", 
-  "property_type": "Data", 
-  "value": "customer_location_state"
- }, 
- {
-  "default_value": null, 
-  "doc_type": "Ferro Pipeline", 
-  "docstatus": 0, 
-  "doctype": "Property Setter", 
-  "doctype_or_field": "DocField", 
   "field_name": "week_of_year", 
   "modified": "2016-01-11 18:02:18.638009", 
   "name": "Ferro Pipeline-week_of_year-previous_field", 
@@ -1077,5 +1064,18 @@
   "property": "previous_field", 
   "property_type": "Data", 
   "value": "salesperson"
+ }, 
+ {
+  "default_value": null, 
+  "doc_type": "Ferro Pipeline", 
+  "docstatus": 0, 
+  "doctype": "Property Setter", 
+  "doctype_or_field": "DocField", 
+  "field_name": "vendor_code", 
+  "modified": "2016-01-15 16:48:25.826370", 
+  "name": "Ferro Pipeline-vendor_code-previous_field", 
+  "property": "previous_field", 
+  "property_type": "Data", 
+  "value": "customer_location_state"
  }
 ]
